@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"target": "es6",
+		"moduleResolution": "node",
+		"removeComments": true,
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"outDir": "dist",
+		"declaration": true,
+		"pretty": true,
+		"esModuleInterop": true,
+		"noImplicitReturns": true,
+		"noUnusedParameters": true,
+		"noUnusedLocals": true,
+		"noFallthroughCasesInSwitch": true,
+		"module": "ESNext",
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true
+	},
+	"exclude": [
+		"node_modules",
+		"dist",
+	],
+	"include": [
+		"./src/**/*",
+	],
+}
